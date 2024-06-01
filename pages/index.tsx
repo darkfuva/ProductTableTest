@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import TableComponent from "./component/tableComponent";
-import tableHeaders from "./component/tableHeadersConfig";
+import TableComponent from "../component/tableComponent";
+import tableHeaders from "../component/tableHeadersConfig";
 
 export type Item = {
   id: number;
