@@ -70,7 +70,6 @@ export default function Home() {
           totalPages={total}
           tableHeaders={tableHeaders}
           onTableStateChange={(sortBy, sortDirection, limit, skip) => {
-            console.log("Called");
             handleFetchProducts(sortBy, sortDirection, limit, skip);
           }}
           tableData={items}
